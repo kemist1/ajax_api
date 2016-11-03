@@ -1,0 +1,120 @@
+
+
+body {
+	font-family: 'helvetica', sans-serif;
+	background: url(http://static.wixstatic.com/media/e7708b_4bcafbacfb2a4163ad52a56242636673.jpg_srz_978_652_85_22_0.50_1.20_0.00_jpg_srz) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: #f2f2f2;
+	font-weight: 500;
+}
+
+.container {
+	background: rgba(55, 55, 55, .8);
+	border-radius: 8px;
+	min-height: 768px;
+}
+
+h1 {
+	font-family: 'font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;';
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+#white {
+	color: #fff;	
+}
+
+#blue {
+	color: #1272DF;
+}
+
+
+
+#movieSearchBTN {
+	background-image: url(https://lh5.ggpht.com/Ht-xtGvue8j1tUGWGDq8hAf3ufwTpS7--mVXgzodt7cpPR2QeVdTCTL-nWO42ITlhRc=w300);
+	background-size: 40px;
+    background-repeat: no-repeat;
+	border-color: white;
+	color: #fff;
+	padding: 20px;
+}
+
+#movieSearch {
+	border-color: #fff;
+	background-color: #000;
+	color: #fff;
+}
+
+.movie {
+	color: #fff;
+	border-color: #00abff;
+	background-color: #00abff;
+}
+
+#buttonHolder > .active1 {
+	color: #fff;
+	border-color: #85c614;
+	background-color: #85c614;
+}
+
+ #buttonHolder > .active1:focus {
+ 	outline: none;
+ }
+
+  #btn-default:hover {
+ 	color: #9840fb;
+	border-color: #9840fb;
+	background-color: white;
+ 	outline: none;
+ }
+
+
+
+.movieHolder {
+	background: rgba(55, 55, 55, .7);
+	border: 1px solid rgba(242, 242, 242, .7);
+	width: 400px;
+	margin: 0px 0px 20px 20px;
+	overflow: none;
+	border-radius: 8px 8px 8px 8px;
+	display: inline-block;
+}
+
+.movieHeading{
+	background: rgba(0, 0, 0, .9);
+	border-bottom: 1px solid rgba(242, 242, 242, .7);
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 8px 8px 0px 0px;
+
+}
+
+.warning {
+	color: white;
+	font-size: 18pt;
+	margin-left: 20px;
+	padding: 10px; 
+	font-weight: 700;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+.movie {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.picDiv {
+	padding: 40px 20px 20px 20px;
+}
+
+}
